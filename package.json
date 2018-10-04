@@ -1,0 +1,19 @@
+{
+  "name": "mongoloaders",
+  "version": "1.0.0",
+  "description": "geting my feet wet with node ",
+  "main": "setup.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theKristi/MongoLoaders.git"
+  },
+  "author": "Kristi Marks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theKristi/MongoLoaders/issues"
+  },
+  "homepage": "https://github.com/theKristi/MongoLoaders#readme"
+}
