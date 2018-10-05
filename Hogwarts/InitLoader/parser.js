@@ -4,7 +4,7 @@ module.exports=(tableSelected)=> {
         //pull off properties into array
         if (tableSelected && tableSelected.children.length > 0) {
             let tbody = tableSelected.tBodies[0];
-            let properties = this.getAttributesFromHtml(tableSelected.tHead);
+            let properties = getAttributesFromHtml(tableSelected.tHead);
 
             //for each row in collection
             for (let i = 0; i < tbody.rows.length; i++) {
@@ -45,30 +45,31 @@ module.exports=(tableSelected)=> {
         }
         return list;
 
-    let emptyObject= function(attributes) {
-        let object = {};
-        if (!attributes)
-            attributes = Object.getOwnPropertyNames(this.getList()[0]);
-        for (let attribute in attributes) {
-            object[attributes[attribute]] = "";
-        }
-        return object;
-    };
-    let getAttributesFromHtml=function(headerRow) {
-        if (headerRow.localName == "thead")
-            headerRow = headerRow.children[0].cells;
-
-
-        let headers = [];
-        for (let entry in headerRow) {
-
-            if (headerRow[entry].outerText !== undefined) {
-                let string = headerRow[entry].outerText.trim();
-                string = string.replace(/\s+/g, '');
-                headers.push(string);
-
-            }
-        }
-        return headers;
-    };
+    
 }
+let emptyObject= function(attributes) {
+    let object = {};
+    if (!attributes)
+        attributes = Object.getOwnPropertyNames(this.getList()[0]);
+    for (let attribute in attributes) {
+        object[attributes[attribute]] = "";
+    }
+    return object;
+};
+let getAttributesFromHtml=function(headerRow) {
+    if (headerRow.localName == "thead")
+        headerRow = headerRow.children[0].cells;
+
+
+    let headers = [];
+    for (let entry in headerRow) {
+
+        if (headerRow[entry].outerText !== undefined) {
+            let string = headerRow[entry].outerText.trim();
+            string = string.replace(/\s+/g, '');
+            headers.push(string);
+
+        }
+    }
+    return headers;
+};
