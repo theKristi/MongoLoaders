@@ -1,5 +1,5 @@
-export class Parser {
-    parse(tableSelected) {
+module.exports=(tableSelected)=> {
+    
         let list = [];
         //pull off properties into array
         if (tableSelected && tableSelected.children.length > 0) {
@@ -44,8 +44,8 @@ export class Parser {
             }
         }
         return list;
-    };
-    emptyObject(attributes) {
+
+    let emptyObject= function(attributes) {
         let object = {};
         if (!attributes)
             attributes = Object.getOwnPropertyNames(this.getList()[0]);
@@ -54,7 +54,7 @@ export class Parser {
         }
         return object;
     };
-    getAttributesFromHtml(headerRow) {
+    let getAttributesFromHtml=function(headerRow) {
         if (headerRow.localName == "thead")
             headerRow = headerRow.children[0].cells;
 
