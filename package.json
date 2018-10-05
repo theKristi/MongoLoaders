@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/theKristi/MongoLoaders/issues"
   },
-  "homepage": "https://github.com/theKristi/MongoLoaders#readme"
+  "homepage": "https://github.com/theKristi/MongoLoaders#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
