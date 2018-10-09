@@ -20,6 +20,7 @@
   "homepage": "https://github.com/theKristi/MongoLoaders#readme",
   "dependencies": {
     "jsdom": "^12.1.0",
+    "mongodb": "^3.1.6",
     "npm": "^6.4.1",
     "tabletojson": "^0.9.8"
   },
