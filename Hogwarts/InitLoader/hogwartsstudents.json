@@ -1,0 +1,317 @@
+[
+    {
+        "_id": "5bbcb10ed38a2f16dca56269",
+        "House": "Slytherin",
+        "FirstName": "Severus",
+        "LastName": "Snape"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5625f",
+        "House": "Gryffindor",
+        "FirstName": "George",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56280",
+        "House": "Gryffindor",
+        "FirstName": "Parvati",
+        "LastName": "Patil"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56265",
+        "House": "Gryffindor",
+        "FirstName": "Bill",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56262",
+        "House": "Gryffindor",
+        "FirstName": "Albus",
+        "LastName": "Dumbledore"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56261",
+        "House": "Slytherin",
+        "FirstName": "Tom",
+        "LastName": "Riddle"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5625e",
+        "House": "Gryffindor",
+        "FirstName": "Fred",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56275",
+        "House": "Gryffindor",
+        "FirstName": "Katie",
+        "LastName": "Bell"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56264",
+        "House": "Gryffindor",
+        "FirstName": "Ginny",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56266",
+        "House": "Gryffindor",
+        "FirstName": "Charlie",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5626c",
+        "House": "Hufflepuff",
+        "FirstName": "Pamona",
+        "LastName": "Sprout"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56271",
+        "House": "Gryffindor",
+        "FirstName": "Seamus",
+        "LastName": "Finnegan"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56270",
+        "House": "Gryffindor",
+        "FirstName": "Dean",
+        "LastName": "Thomas"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5626d",
+        "House": "Ravenclaw",
+        "FirstName": "Sybill",
+        "LastName": "Trelawny"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5626f",
+        "House": "Gryffindor",
+        "FirstName": "Neville",
+        "LastName": "Longbottom"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5627d",
+        "House": "Slytherin",
+        "FirstName": "Vincent",
+        "LastName": "Crabbe"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5626e",
+        "House": "Slytherin",
+        "FirstName": "Horace",
+        "LastName": "Slughorn"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56284",
+        "House": "Gryffindor",
+        "FirstName": "Alastor",
+        "LastName": "Moody"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5628d",
+        "House": "Hufflepuff",
+        "FirstName": "Sturgis",
+        "LastName": "Podmore"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56263",
+        "House": "Gryffindor",
+        "FirstName": "Ronald",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56267",
+        "House": "Gryffindor",
+        "FirstName": "Hermione",
+        "LastName": "Granger"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5626a",
+        "House": "Gryffindor",
+        "FirstName": "Minerva",
+        "LastName": "McGonagall"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56272",
+        "House": "Gryffindor",
+        "FirstName": "Lee",
+        "LastName": "Jordan"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56279",
+        "House": "Hufflepuff",
+        "FirstName": "Hannah",
+        "LastName": "Abbot"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5627b",
+        "House": "Ravenclaw",
+        "FirstName": "Cho",
+        "LastName": "Chang"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5627f",
+        "House": "Gryffindor",
+        "FirstName": "Lavander",
+        "LastName": "Brown"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56283",
+        "House": "Ravenclaw",
+        "FirstName": "Michael",
+        "LastName": "Corner"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56285",
+        "House": "Ravenclaw",
+        "FirstName": "Anthony",
+        "LastName": "Goldstien"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5628a",
+        "House": "Gryffindor",
+        "FirstName": "Sirius",
+        "LastName": "Black"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56274",
+        "House": "Gryffindor",
+        "FirstName": "Angelina",
+        "LastName": "Johnson"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56277",
+        "House": "Hufflepuff",
+        "FirstName": "Ernie",
+        "LastName": "Mcmillan"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5627a",
+        "House": "Hufflepuff",
+        "FirstName": "Susan",
+        "LastName": "Bones"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5627c",
+        "House": "Slytherin",
+        "FirstName": "Gregory",
+        "LastName": "Goyle"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56289",
+        "House": "Gryffindor",
+        "FirstName": "Arthur",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56268",
+        "House": "Slytherin",
+        "FirstName": "Draco",
+        "LastName": "Malfoy"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5626b",
+        "House": "Ravenclaw",
+        "FirstName": "Philius",
+        "LastName": "Flitwick"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56276",
+        "House": "Gryffindor",
+        "FirstName": "Percy",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56281",
+        "House": "Ravenclaw",
+        "FirstName": "Padma",
+        "LastName": "Patil"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56288",
+        "House": "Gryffindor",
+        "FirstName": "Molly",
+        "LastName": "Weasley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56260",
+        "House": "Gryffindor",
+        "FirstName": "Harry",
+        "LastName": "Potter"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5627e",
+        "House": "Ravenclaw",
+        "FirstName": "Luna",
+        "LastName": "Lovegood"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56273",
+        "House": "Gryffindor",
+        "FirstName": "Alicia",
+        "LastName": "Spinnet"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56278",
+        "House": "Hufflepuff",
+        "FirstName": "Justin",
+        "LastName": "Finch-Fletchley"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56286",
+        "House": "Ravenclaw",
+        "FirstName": "Terry",
+        "LastName": "Boot"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56287",
+        "House": "Gryffindor",
+        "FirstName": "Rubeus",
+        "LastName": "Hagrid"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5628c",
+        "House": "Hufflepuff",
+        "FirstName": "Zacharias",
+        "LastName": "Smith"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca56282",
+        "House": "Hufflepuff",
+        "FirstName": "Cedric",
+        "LastName": "Diggory"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5628e",
+        "House": "Gryffindor",
+        "FirstName": "Peter",
+        "LastName": "Pettigrew"
+    },
+    {
+        "_id": "5bbcb10ed38a2f16dca5628b",
+        "House": "Gryffindor",
+        "FirstName": "Remus",
+        "LastName": "Lupin"
+    },
+    {
+        "_id": "5bd075290cc2e91fc890abea",
+        "FirstName": "Collin",
+        "LastName": "Creevey",
+        "House": "Gryffindor",
+        "__v": 0
+    },
+    {
+        "_id": "5bd1d1c299bc5e17f4477265",
+        "FirstName": "Dennis",
+        "LastName": "Creevey",
+        "House": "Gryffindor",
+        "__v": 0
+    },
+    {
+        "_id": "5bd1d567c73edb3af097ee06",
+        "FirstName": "Kristi",
+        "LastName": "Marks",
+        "House": "Ravenclaw",
+        "__v": 0
+    }
+]
