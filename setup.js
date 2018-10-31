@@ -1,21 +1,25 @@
 const fs = require('fs');
-const parser = require('tabletojson');
 
-fs.readFile( 'InitLoader/index.html', 'utf8', function(err, html){
+fs.readFile( 'hogwartsstudents.json', 'utf8', function(err, json){
    if(err)
     return console.log(err)
-    const converted = parser.convert(html)[0];
+    const converted = JSON.parse(json);
     const MongoClient = require('mongodb').MongoClient;
 
 // replace the uri string with your connection string.
-const uri = "mongodb+srv://<USERNAME>:<PASSWORD>@cluster0-uas4b.mongodb.net/test?retryWrites=true"
+const uri = "mongodb://theKristi:dbPass123@ds155192.mlab.com:55192/heroku_zrxxmr7z"
 MongoClient.connect(uri, function(err, client) {
    if(err) {
-        console.log('Error occurred while connecting to MongoDB Atlas...\n',err);
+        console.log('Error occurred while connecting to mlab...\n',err);
    }
    console.log('Connected...');
-   const collection = client.db("WizardingWorld").collection("HogwartsStudents");
-   collection.insertMany(converted)
+
+   
+   const collection=client.db("heroku_zrxxmr7z").collection("HogwartsStudents")
+   collection.insertMany(converted).then((res)=>{
+       console.log(res);
+   });
+   
    client.close();
 });
     
