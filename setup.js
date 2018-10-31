@@ -7,7 +7,7 @@ fs.readFile( 'hogwartsstudents.json', 'utf8', function(err, json){
     const MongoClient = require('mongodb').MongoClient;
 
 // replace the uri string with your connection string.
-const uri = "mongodb://theKristi:dbPass123@ds155192.mlab.com:55192/heroku_zrxxmr7z"
+const uri = "mongodb://<username>:<password>@ds155192.mlab.com:55192/heroku_zrxxmr7z"
 MongoClient.connect(uri, function(err, client) {
    if(err) {
         console.log('Error occurred while connecting to mlab...\n',err);
